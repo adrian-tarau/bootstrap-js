@@ -7,6 +7,7 @@
         <asset path="font-awesome/solid.css" type="stylesheet"/>
         <asset path="font-awesome/fontawesome.css" type="stylesheet"/>
         <asset path="font-awesome/brands.css" type="stylesheet"/>
+        <asset path="bootstrap/bootstrap-icons.css" type="stylesheet"/>
         <asset path="themify/themify.css" type="stylesheet"/>
     </asset-bundle>
 
@@ -51,6 +52,9 @@
 
         <asset path="daterangepicker.js" type="script"/>
         <asset path="daterangepicker.css" type="stylesheet"/>
+
+        <asset path="overlayscrollbars.js" type="script"/>
+        <asset path="overlayscrollbars.css" type="stylesheet"/>
     </asset-bundle>
 
     <asset-bundle id="code" path="code" version="1.0.0" name="Code Editing">
@@ -88,10 +92,11 @@
 
         <asset path="popper.js" type="script"/>
         <asset path="bootstrap.js" type="script"/>
-        <asset path="tippyjs.js" type="script"/>
-        <asset path="tooltip.js" type="script"/>
         <asset path="bootstrap.css" type="stylesheet"/>
         <asset path="bootstrap-select2-theme.css" type="stylesheet"/>
+
+        <asset path="tippyjs.js" type="script"/>
+        <asset path="tooltip.js" type="script"/>
         <asset path="tippyjs.css" type="stylesheet"/>
     </asset-bundle>
 
@@ -101,11 +106,20 @@
     </asset-bundle>
 
     <!-- Adminator Theme  -->
-    <asset-bundle id="adminator" path="adminator" version="2.0.0" name="Adminator" theme="Adminator">
+    <asset-bundle id="adminator" path="adminator" version="2.0.0" name="Adminator" theme="adminator">
         <depends-on-asset-bundle>bootstrap</depends-on-asset-bundle>
 
         <asset path="adminator.js" type="script"/>
         <asset path="adminator.css" type="stylesheet"/>
+    </asset-bundle>
+
+    <!-- AdminLTE Theme  -->
+    <asset-bundle id="adminlte" path="bootstrap-theme" version="4.0.0" name="AdminLTE" theme="adminlte">
+        <depends-on-asset-bundle>bootstrap</depends-on-asset-bundle>
+
+        <asset path="adminlte.js" type="script"/>
+        <asset path="adminlte-init.js" type="script"/>
+        <asset path="adminlte.css" type="stylesheet"/>
     </asset-bundle>
 
 
