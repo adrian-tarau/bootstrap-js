@@ -28,6 +28,7 @@
         <asset path="jquery.form.js" type="script"/>
         <asset path="jquery.sparkline.js" type="script"/>
         <asset path="jquery.loadingoverlay.js" type="script"/>
+        <asset path="jquery.input-autogrow.js" type="script"/>
     </asset-bundle>
 
     <!-- Apex Chart  -->
